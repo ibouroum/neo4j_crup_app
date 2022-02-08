@@ -1,0 +1,22 @@
+{
+  "name": "neo4j_crud",
+  "version": "1.0.0",
+  "description": "Crud Application (neo4j and node.js)",
+  "main": "server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "ibouroum",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cassandra-driver": "^4.6.3",
+    "dotenv": "^15.0.0",
+    "ejs": "*",
+    "express": "*",
+    "morgan": "*",
+    "neo4j-driver": "*",
+    "nodemon": "*"
+  }
+}
